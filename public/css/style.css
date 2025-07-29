@@ -162,3 +162,28 @@
 }
 
 /* End tour-detail */
+
+/* Swiper fix */
+.swiper {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
