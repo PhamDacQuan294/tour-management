@@ -46,3 +46,119 @@
   color: green;
 }
 /* End box-head */
+
+/* tour-detail */
+.tour-detail {
+  padding: 30px;
+}
+
+.tour-detail .col-6 {
+  width: 50%;
+}
+
+.tour-detail .col-12 {
+  width: 100%;
+}
+
+.tour-detail .inner-images {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tour-detail .inner-image img {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.tour-detail .inner-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #c12026;
+  margin-bottom: 10px;
+}
+
+.tour-detail .inner-barcode,
+.tour-detail .inner-time-start,
+.tour-detail .inner-stock {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.tour-detail .inner-barcode i,
+.tour-detail .inner-time-start i,
+.tour-detail .inner-stock i {
+  margin-right: 5px;
+}
+
+.tour-detail .inner-price-special {
+  font-weight: 700;
+  color: #c12026;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.tour-detail .inner-price {
+  font-weight: 700;
+  color: #3c3c3c;
+  text-decoration: line-through;
+  margin-bottom: 10px;
+}
+
+.tour-detail .inner-percent {
+  font-weight: 700;
+  color: #3c3c3c;
+  margin-bottom: 10px;
+}
+
+.tour-detail form {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.tour-detail input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.tour-detail button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+.tour-detail button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.tour-detail .inner-infomation {
+  border: 1px solid #b5b5b5;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.tour-detail .inner-infomation .inner-label {
+  font-size: 18px;
+  font-weight: 700;
+  color: #c12026;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #b5b5b5;
+  padding-bottom: 8px;
+}
+
+.tour-detail .inner-infomation .inner-text {
+  white-space: pre-line;
+  color: #333;
+}
+
+/* End tour-detail */
